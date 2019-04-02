@@ -1,7 +1,8 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Артеменков](https://up.htmlacademy.ru/adaptive/16/user/961641).
-* Наставник: `Неизвестно`.
+* Наставник: `Дмитрий
+Мирошниченко.
 
 ---
 
