@@ -31,46 +31,53 @@
   </header>
     <main class="page-form">
       <section class="reviews">
+        <img src="img/back-mobile-jpg.png" alt="Фотография здания" width="320" height="462" class="back-mobile">
+        <p class="site-list__photo">
+          Конкурс на самое безбашенное путешествие с Пинк
+        </p>
         <p class="reviews-text__form">
           Поделитесь своей историей и получите
           шанс выиграть ценный приз — 1000
           миль на вашу бонусную карту!<!--Скрытый фон    Пожалуйста, заполните форму ниже:  --->
-
         </p>
-        <form class="reviews-form" action="https://echo.htmlacademy.ru" method="post">
-          <div class="reviews-form__data-name">
-            <p class="reviews-form__second-name">
-              <label for="first-name">ФАМИЛИЯ:</label>
-              <input type="text" id="first-name" name="first-name" class="reviews-form__button" placeholder="Укажите фамилию*">
-            </p>
-            <p class="reviews-form__name">
-              <label for="name">ИМЯ:</label>
-              <input type="text" id="name" name="name" class="reviews-form__button" placeholder="Введите ваше имя*">
-            </p>
-            <p class="reviews-form__surname">
-              <label for="surname">ОТЧЕСТВО:</label>
-              <input type="text" id="surname" name="surname" class="reviews-form__button" placeholder="Ну и отчество тоже">
-            </p>
-          </div>
-
+        <fieldset class="reviews-form">
+          <legend class="vissualy-hidden">
+            ФИО
+          </legend>
+          <form class="reviews-form" action="https://echo.htmlacademy.ru" method="post">
+            <div class="reviews-form__data-name">
+              <p class="reviews-form reviews-form__second-name">
+                <label for="first-name">фамилия:</label>
+                <input type="text" id="first-name" name="first-name" class="reviews-form__button" placeholder="Укажите фамилию*">
+              </p>
+              <p class="reviews-form reviews-form__name">
+                <label for="name">имя</label>
+                <input type="text" id="name" name="name" class="reviews-form__button" placeholder="Введите ваше имя*">
+              </p>
+              <p class="reviews-form reviews-form__surname">
+                <label for="surname">отчество:</label>
+                <input type="text" id="surname" name="surname" class="reviews-form__button" placeholder="Ну и отчество тоже">
+              </p>
+            </div>
+          </fieldset>
           <fieldset class="familiarity-form">
             <legend class="familiarity-form__text">
               Ваши безбашенные достижения в путешествии
             </legend>
             <ul class="familiarity-form__list">
-              <li class="familiarity-form__item">
+              <li class="familiarity-form familiarity-form__item">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="shark" id="shark" checked>
                 <label for="shark">Сделал селфи с акулой</label>
               </li>
-              <li class="familiarity-form__item">
+              <li class="familiarity-form familiarity-form__item">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="beach" id="beach" checked>
                 <label for="beach">Обгорел на пляже</label>
               </li>
-              <li class="familiarity-form__item">
+              <li class="familiarity-form familiarity-form__item">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="chuck-norris" id="chuck-norris">
                 <label for="chuck-norris">Видел Чака Норриса</label>
               </li>
-              <li class="familiarity-form__item">
+              <li class="familiarity-form familiarity-form__item">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="souvenir" id="souvenir">
                 <label for="souvenir">Накупил сувениров</label>
               </li>
@@ -87,8 +94,8 @@
 
           <div class="reviews-form__data-personal">
             <p class="reviews-form__phone">
+              <label for="first-name">Номер телефона</label>
               <input type="number" id="number" name="number" class="reviews-form__button" placeholder="Номер, пожалуйста">
-              <label for="first-name">ФАМИЛИЯ:</label>
             </p>
             <p class="reviews-form__nickname-mail">
               <label for="mail">Ваш e-mail:</label>
@@ -101,15 +108,15 @@
               С каким приложением путешествовали?
             </legend>
             <ul class="app-form__list">
-              <li class="app-form__item">
+              <li class="app-form app-form__item">
                 <input class="visually-hidden filter-input filter-input-radio" type="radio" name="ios" value="presence" id="ios" checked>
                 <label for="ios">Pink для iOS</label>
               </li>
-              <li class="app-form__item">
+              <li class="app-form app-form__item">
                 <input class="visually-hidden filter-input filter-input-radio" type="radio" name="android" value="presence" id="android">
                 <label for="no">Pink на Android</label>
               </li>
-              <li class="app-form__item">
+              <li class="app-form app-form__item">
                 <input class="visually-hidden filter-input filter-input-radio" type="radio" name="windows-phone" value="presence" id="windows-phone">
                 <label for="windows-phone">Windows Phone</label>
               </li>
